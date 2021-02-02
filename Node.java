@@ -1,10 +1,14 @@
 //Day--00
 public class Node {
-    public int data;
-    public Node next;
-    public Node previous;
+    int key;
+    String value;
+    Node leftchild,rightchild;
     
-    public void print(){
-        System.out.println(" --> "+data+" <-- ");
+    public Node(int key, String name){
+        super();
+        this.key=key;
+        this.value=name;
     }
+    
+   
 }
